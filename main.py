@@ -57,7 +57,6 @@ def heartdisease_pred(input_parameters : model_input):
         return 'The person has a heart disease!'
     
     
-if __name__ == '__main__':
-    uvicorn.run(app, host='127.0.0.1')
+
 
 
